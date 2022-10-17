@@ -1,0 +1,162 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  
+}
+
+body{
+  margin: 0;
+
+}
+
+.navbarr{
+  padding: 23px 30px ;
+  background-color: #FFFFFF;
+  display: flex;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+  width: 100px;
+}
+
+
+.herosection{
+  padding: 26px 0 32px;
+ 
+}
+
+.imgSection{
+  display: flex;
+  justify-content: center;
+}
+
+
+.wordSection{
+  padding-left: 180px;
+  text-align: left;
+}
+
+.HeroHead{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 110%;
+  margin-bottom: 16px;
+}
+
+.HeroPara{
+  inline-size: 20rem;
+  overflow-wrap: break-word;
+  margin-top: 0;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  overflow-x: auto;
+  padding-left: 180px;
+}
+
+.card {
+  width: 300px;
+  text-align: left;
+  position: relative;
+  flex: 0 0 auto;  
+  /* display: flex; */
+  /* flex-direction: column; */
+ 
+}
+
+.cardImage {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+
+
+
+.cardAttr{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 300;
+  line-height: 110%;
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+}
+
+.card-price{
+  margin-top: auto;
+}
+
+.starr{
+  display: flex;
+  height: 1rem;
+}
+
+.grey{
+  color: #918E9B;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width : 480px){
+  
+  .imagehero{
+    width: 300px;
+  }
+  .wordSection{
+    padding-left: 30px;
+  }
+
+  .HeroHead{
+    font-weight: 600;
+    font-size: 28px;
+  }  
+  
+  .HeroPara{
+    inline-size: 17rem;
+    font-size: 13px;
+  }
+
+  .cards-list {
+    padding-left: 30px;
+    gap: 1rem;
+    width: 500px;
+  }
+  
+  .card {
+    width: 200px;
+  }
+
+  .cardImage {
+    width: 100%;
+    margin:  0;
+  }
+
+  .card-title{
+    margin: 0;
+  }  
+}
